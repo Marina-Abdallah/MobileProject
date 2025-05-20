@@ -26,7 +26,7 @@ class _NavBarState extends State<NavBar> {
           });
         },
         destinations: [
-          NavigationDestination(icon: Icon(Icons.favorite), label: "Home"),
+          NavigationDestination(icon: Icon(Icons.home), label: "Home"),
           NavigationDestination(icon: Icon(Icons.format_quote), label: "Quote"),
           NavigationDestination(icon: Icon(Icons.favorite), label: "Favorite"),
           NavigationDestination(icon: Icon(Icons.access_alarms), label: "About"),
